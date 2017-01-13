@@ -95,8 +95,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/tmp/pprabhu-build-curl-8850/install-windows-x86/lib/engines"
-#define OPENSSLDIR "/tmp/pprabhu-build-curl-8850/install-windows-x86"
+#define ENGINESDIR "/tmp/zyy-build-curl-114301/install-windows-x86/lib/engines"
+#define OPENSSLDIR "/tmp/zyy-build-curl-114301/install-windows-x86"
 #endif
 #endif
 

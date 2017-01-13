@@ -97,8 +97,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/tmp/pprabhu-build-curl-93784/install-darwin-x86_64/lib/engines"
-#define OPENSSLDIR "/tmp/pprabhu-build-curl-93784/install-darwin-x86_64"
+#define ENGINESDIR "/tmp/ssh-build-curl/build/install-darwin-x86_64/lib/engines"
+#define OPENSSLDIR "/tmp/ssh-build-curl/build/install-darwin-x86_64"
 #endif
 #endif
 
