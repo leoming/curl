@@ -118,8 +118,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/tmp/zyy-build-curl-27041/install-linux-x86_64/lib/engines"
-#define OPENSSLDIR "/tmp/zyy-build-curl-27041/install-linux-x86_64"
+#define ENGINESDIR "/tmp/jansene-build-curl-16370/install-linux-x86_64/lib/engines"
+#define OPENSSLDIR "/tmp/jansene-build-curl-16370/install-linux-x86_64"
 #endif
 #endif
 
